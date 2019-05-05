@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/api/user', 'Api\UserApiController@user_get');      //user get 接口
+
