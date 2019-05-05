@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 
 Route::get('/api/user', 'Api\UserApiController@user_get');      //user get 接口
+Route::post('/api/users', 'Api\UserApiController@user_post');      //user post 接口
 
