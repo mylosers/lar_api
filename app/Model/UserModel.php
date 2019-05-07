@@ -7,6 +7,6 @@ class UserModel extends Model
 {
     //
 
-    public $table = 'api_user';
+    public $table = 'user';
     public $timestamps = false;
 }
